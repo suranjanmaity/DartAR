@@ -4,15 +4,23 @@ main .policy{
     margin-bottom: 5rem;
 }
 .footer{
-    margin-left: 10rem;
+    /* align-self:center; */
     margin-bottom: 5rem;
     margin-top: 5rem;
 }
 body{
+    /* flex:content; */
     margin-left: 5rem;
     margin-right: 5rem;
 }
 .link{
  font-size: 1rem;
  font-weight: 100;
+
+}
+.contact{
+    margin-top: 3rem;
+}
+.links{
+    margin-top: 3rem;
 }
