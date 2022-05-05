@@ -1,0 +1,4 @@
+#Wed May 04 18:08:54 IST 2022
+base.0=D\:\\unity\\dart_AR_v2\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

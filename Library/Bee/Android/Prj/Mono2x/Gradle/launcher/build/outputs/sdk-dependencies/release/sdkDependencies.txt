@@ -1,0 +1,58 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    artifactId: "arcore_client"
+  }
+  digests {
+    sha256: "\206.\326\330iF5]O$U\341KI\301Z\361[zT\276]W\215S\355\234\210\255d1\033"
+  }
+}
+library {
+  maven_library {
+    artifactId: "ARPresto"
+  }
+  digests {
+    sha256: "\230\035\021L\340\230\376\303\201;/\233\377T\265\211@\006\232\332\021,\353\f\fF\030gy\353\363\256"
+  }
+}
+library {
+  maven_library {
+    artifactId: "UnityARCore"
+  }
+  digests {
+    sha256: "4#\032N\256\345\360\261\300\037\227e\363d\305\r)\337\226\246\v\311\207k\206a\323#\274\366\230\362"
+  }
+}
+library {
+  maven_library {
+    artifactId: "unityandroidpermissions"
+  }
+  digests {
+    sha256: "\304\275\200/\267\017\253\2569\233,4\201\275\362\370\021i,\2045\246\3123t\313N\032\270\017h\272"
+  }
+}
+library {
+  digests {
+    sha256: "p\305\336\235\202\252\317\302d\201\032F\277\362\227\356\225\000\222L\356\3760\277\031QX\275\027\315\340\227"
+  }
+}
+library_dependencies {
+}
+library_dependencies {
+  library_index: 1
+}
+library_dependencies {
+  library_index: 2
+}
+library_dependencies {
+  library_index: 3
+}
+library_dependencies {
+  library_index: 4
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 4
+}

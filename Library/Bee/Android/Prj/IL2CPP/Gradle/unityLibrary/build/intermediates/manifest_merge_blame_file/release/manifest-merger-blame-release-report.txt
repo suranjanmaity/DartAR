@@ -1,0 +1,149 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="30"
+9-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:3-52
+12-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-49
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-65
+14-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:20-62
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-64
+15-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:20-61
+16
+17    <uses-feature
+17-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-88
+18        android:name="android.hardware.touchscreen"
+18-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:17-60
+19        android:required="false" />
+19-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:61-85
+20    <uses-feature
+20-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-99
+21        android:name="android.hardware.touchscreen.multitouch"
+21-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-71
+22        android:required="false" />
+22-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:72-96
+23    <uses-feature
+23-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-108
+24        android:name="android.hardware.touchscreen.multitouch.distinct"
+24-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-80
+25        android:required="false" />
+25-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:81-105
+26
+27    <uses-permission android:name="android.permission.CAMERA" />
+27-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-63
+27-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:20-60
+28
+29    <uses-feature
+29-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-85
+30        android:name="android.hardware.camera.ar"
+30-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:17-58
+31        android:required="true" />
+31-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:59-82
+32    <uses-feature
+32-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-83
+33        android:name="com.google.ar.core.depth"
+33-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-56
+34        android:required="true" />
+34-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:57-80
+35
+36    <application android:extractNativeLibs="true" >
+36-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-19:17
+36-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+37        <activity
+37-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
+38            android:name="com.unity3d.player.UnityPlayerActivity"
+38-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+39            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+39-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:182-363
+40            android:hardwareAccelerated="false"
+40-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:399-434
+41            android:launchMode="singleTask"
+41-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:150-181
+42            android:resizeableActivity="false"
+42-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:364-398
+43            android:screenOrientation="fullSensor"
+43-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-149
+44            android:theme="@style/UnityThemeSelector" >
+44-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+45            <intent-filter>
+45-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+46                <action android:name="android.intent.action.MAIN" />
+46-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+46-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+48-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+49            </intent-filter>
+50
+51            <meta-data
+51-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+52                android:name="unityplayer.UnityActivity"
+52-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+53                android:value="true" />
+53-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+54            <meta-data
+54-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+55                android:name="android.notch_support"
+55-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+56                android:value="true" />
+56-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+57        </activity>
+58
+59        <meta-data
+59-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
+60            android:name="unity.splash-mode"
+60-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
+61            android:value="0" />
+61-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
+62        <meta-data
+62-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
+63            android:name="unity.splash-enable"
+63-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
+64            android:value="True" />
+64-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
+65        <meta-data
+65-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
+66            android:name="unity.launch-fullscreen"
+66-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
+67            android:value="True" />
+67-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
+68        <meta-data
+68-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
+69            android:name="unity.allow-resizable-window"
+69-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-59
+70            android:value="False" />
+70-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:60-81
+71        <meta-data
+71-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-81
+72            android:name="notch.config"
+72-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-43
+73            android:value="portrait|landscape" />
+73-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:44-78
+74        <meta-data
+74-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-88
+75            android:name="unityplayer.SkipPermissionsDialog"
+75-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-64
+76            android:value="true" />
+76-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:65-85
+77        <meta-data
+77-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-77
+78            android:name="com.google.ar.core"
+78-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-49
+79            android:value="required" />
+79-->D:\unity\dart_AR_v2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:50-74
+80    </application>
+81
+82</manifest>
