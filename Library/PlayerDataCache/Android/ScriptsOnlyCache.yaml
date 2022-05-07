@@ -1691,4 +1691,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/game.unity
-  playerPath: D:/unity/dart_AR_v2/dart_AR_7_6.apk
+  playerPath: D:/unity/dart_AR_v2/AR_Darts.apk

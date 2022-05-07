@@ -30,6 +30,7 @@ public class Dart : MonoBehaviour
 
     ARSessionOrigin aRSession;
     GameObject ARCam;
+    
 
     public Collider dartFrontCollider;
     // Start is called before the first frame update
@@ -79,6 +80,8 @@ public class Dart : MonoBehaviour
         // }
     }
 
+   
+
     private void OnTriggerEnter(Collider other) {
         if(other.CompareTag("dart_board"))
         {
@@ -90,6 +93,8 @@ public class Dart : MonoBehaviour
         GetComponent<Rigidbody>().isKinematic = true;
         isDartHitOnBoard = true; 
         isDartRotating = false;
+        
+
         }
     }
 }

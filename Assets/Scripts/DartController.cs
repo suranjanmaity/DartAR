@@ -12,6 +12,7 @@ using UnityEngine.XR.ARFoundation;
 public class DartController : MonoBehaviour
 {
     public GameObject DartPrefab;
+    
     public Transform DartThrowPoint;
     ARSessionOrigin aRSession;
     GameObject ARCam;
@@ -21,7 +22,8 @@ public class DartController : MonoBehaviour
     private bool isDartBoardSearched = false;
     private float m_distanceFromDartBoard = 0f;
     public TMP_Text text_distance;
-
+    
+    
     void Start()
     {
         aRSession = GameObject.Find("AR Session Origin").GetComponent<ARSessionOrigin>();
